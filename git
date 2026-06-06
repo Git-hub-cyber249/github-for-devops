@@ -1,0 +1,30 @@
+9  ls
+  510  git init
+  511  clear
+  512  ls -a
+  513  git init
+  514  git status
+  515  vim testing.txt
+  516  cat testing.txt
+  517  ls
+  518  git status
+  519  git add testing.txt
+  520  git config --global core.autocrlf
+  521  git status
+  522  git rm --cached testing.txt
+  523  ls
+  524  git status
+  525  git add .
+  526  git config --global core.autocrlf
+  527  git status
+  528  git commit -m "added testing files"
+  529  git status
+  530  rm testing.txt
+  531  ls
+  532  git status
+  533  git restore testing.txt
+  534  ls
+  535  git status
+  536  vim git command.txt
+  537  history
+
